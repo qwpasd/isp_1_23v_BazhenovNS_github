@@ -13,16 +13,11 @@
 * git reset … --hard.
 
 ## Блок кода на python: 
-def factorial(n):
-    """Возвращает факториал числа n."""
-    if n < 0:
-        return "Факториал отрицательного числа не определен."
-    elif n == 0 or n == 1:
-        return 1
-    else:
-        result = 1
-        for i in range(2, n + 1):
-            result *= i
-        return result
+```python
+if x > 0:
+	print (x)
+else:
+	print ('Hello, World!')
+```
 ## О себе
 Я Баженов Никита
